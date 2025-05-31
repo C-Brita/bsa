@@ -1,0 +1,13 @@
+*/*/__pycache__/
+*/__pycache__/
+__pycache__/
+checkpoints/
+*.job
+*.out
+wandb/
+
+shapenetcar_data/
+Geo-FNO/
+balltree/build/
+balltree/balltree.egg-info/
+
