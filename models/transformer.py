@@ -10,8 +10,8 @@ from einops import rearrange
 
 from balltree import build_balltree_with_rotations, build_balltree
 
-from erwinxnsa.nsa.lucidrains_native_sparse_attention import LucidrainsSparseAttention as NSA
-from erwinxnsa.nsa.native_sparse_attention import NativeSparseAttention
+from bsa.nsa.lucidrains_native_sparse_attention import LucidrainsSparseAttention as NSA
+from bsa.nsa.native_sparse_attention import NativeSparseAttention
 
 def should_apply_block_residual(layer_idx: int, depth: int, block_size: int) -> bool:
     return (layer_idx + 1) % block_size == 0 or layer_idx + 1 == depth

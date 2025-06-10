@@ -16,7 +16,7 @@ import einx
 from einops import einsum, repeat, rearrange, reduce, pack, unpack
 from einops.layers.torch import Rearrange
 
-from erwinxnsa.nsa.utils import (exists, default, round_down_mult, round_up_mult, divisible_by, 
+from bsa.nsa.utils import (exists, default, round_down_mult, round_up_mult, divisible_by, 
                                         is_empty, max_neg_value, pad_at_dim, straight_through)
 
 # b - batch
